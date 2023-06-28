@@ -1,0 +1,14 @@
+{
+  "name": "is-even",
+  "version": "0.0.0",
+  "type": "module",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "scripts": {
+    "build": "tsup index.ts --format esm --dts --clean true",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    
+  }
+}
