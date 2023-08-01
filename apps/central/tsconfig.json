@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "references": [
+    { "path": "../../libs/is-odd" },
+    { "path": "../../libs/observables" },
+    { "path": "../../libs/components/core" },
+    { "path": "../../libs/components/material" },
+  ]
+}

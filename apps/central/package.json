@@ -1,0 +1,18 @@
+{
+  "name": "@bd/central",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup --c rollup.dev.js --watch",
+    "lint": "eslint **/*.ts",
+    "build": "echo 'central build'",
+    "test": "echo 'Testing Central...'"
+  },
+  "dependencies": {
+    "@bd/core": "*",
+    "@bd/is-odd": "*",
+    "@bd/material": "^0.0.0",
+    "@bd/observables": "*",
+    "xstate": "^5.0.0-beta.15"
+  }
+}

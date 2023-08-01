@@ -1,11 +1,12 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../../tsconfig.json",
   "compilerOptions": {
       "rootDir": "./src",
       "outDir": "./lib",
+      "lib": ["DOM"]
   },
   "include": ["src/**/*.ts"],
   "references": [
-    { "path": "../is-even" }
+    { "path": "../core" }
   ]
 }

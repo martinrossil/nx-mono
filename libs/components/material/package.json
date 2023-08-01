@@ -1,19 +1,16 @@
 {
-  "name": "@bd/is-odd",
+  "name": "@bd/material",
   "version": "0.0.0",
   "type": "module",
-  "module": "lib/index.js",
   "main": "lib/index.js",
+  "module": "lib/index.js",
   "scripts": {
     "dev": "tsup src/index.ts --outDir lib --format esm",
     "lint": "eslint src/**/*.ts",
     "build": "tsup src/index.ts --outDir lib --format esm",
-    "test": "playwright test"
+    "test": "echo 'Tesing @bd/material'"
   },
   "dependencies": {
-    "@bd/is-even": "*"
-  },
-  "devDependencies": {
-    
+    "@bd/core": "*"
   }
 }

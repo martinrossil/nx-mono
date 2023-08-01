@@ -1,12 +1,14 @@
 {
-  "name": "is-even",
+  "name": "@bd/is-even",
   "version": "0.0.0",
   "type": "module",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.mts",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
   "scripts": {
-    "build": "tsup index.ts --format esm --dts --clean true",
-    "lint": "tsc"
+    "dev": "tsup src/index.ts --outDir lib --format esm",
+    "lint": "eslint src/**/*.ts",
+    "build": "tsup src/index.ts --outDir lib --format esm",
+    "test": "playwright test"
   },
   "devDependencies": {
     
